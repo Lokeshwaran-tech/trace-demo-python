@@ -1,0 +1,7 @@
+def calculate_total(price: float, discount: float, tax: float) -> float:
+    """Calculate total after discount and tax."""
+    return price - discount + tax
+
+
+def apply_tax(amount: float, tax_rate: float) -> float:
+    return amount * (1 + tax_rate)
