@@ -1,4 +1,4 @@
-def calculate_total(price: float, discount: float, tax: float) -> float:
+def calculate_total(price: float, discount: float, tax: float = 0.0) -> float:
     """Calculate total after discount and tax."""
     return price - discount + tax
 
